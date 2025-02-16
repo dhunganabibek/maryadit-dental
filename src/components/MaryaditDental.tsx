@@ -2,6 +2,7 @@ import { UserGroupIcon } from '@heroicons/react/24/outline';
 import Services from './Services';
 import HeroSection from './HeroSection';
 import CommunityServices from './CommunityServices';
+import About from './About';
 
 const MaryaditDental = () => {
   return (
@@ -47,53 +48,8 @@ const MaryaditDental = () => {
       </section>
 
       <Services/>
-
       <CommunityServices/>
-
-    
-
-     
-
-      {/* Meet the Team Section */}
-      <section id="team" className="px-6 py-16 bg-white text-gray-800">
-        <h3 className="text-3xl font-semibold text-center mb-8">Meet the Team</h3>
-        <div className="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-          <div className="text-center">
-            <UserGroupIcon className="w-16 mx-auto text-yellow-500 mb-4" />
-            <h4 className="font-semibold text-lg">Dr. Raman Karki</h4>
-            <p>BDS, NMC:31523</p>
-          </div>
-          <div className="text-center">
-            <UserGroupIcon className="w-16 mx-auto text-yellow-500 mb-4" />
-            <h4 className="font-semibold text-lg">Dr. Sarbagya Lal Pradhan</h4>
-            <p>BDS, NMC:30589</p>
-          </div>
-          <div className="text-center">
-            <UserGroupIcon className="w-16 mx-auto text-yellow-500 mb-4" />
-            <h4 className="font-semibold text-lg">Dr. Shrijana Acharya</h4>
-            <p>BDS, NMC:36601</p>
-          </div>
-          <div className="text-center">
-            <UserGroupIcon className="w-16 mx-auto text-yellow-500 mb-4" />
-            <h4 className="font-semibold text-lg">Dr. Sujita Shrestha</h4>
-            <p>BDS, NMC: [Add NMC ID]</p>
-          </div>
-        </div>
-      </section>
-
-        {/* Contact Info Section */}
-        <section id="contact" className="px-6 py-16 bg-white text-gray-800">
-        <h3 className="text-3xl font-semibold text-center mb-8">Contact Us</h3>
-        <div className="max-w-4xl mx-auto text-center">
-          <p>📍 Address: Gongabu, Ganesthan, Tokha-11 Kathmandu, Nepal</p>
-          <p>📞 Phone: (976)358-3807</p>
-          <p>✉ Email: dmaryadit@gmail.com</p>
-          <p>📅 Hours: Sun-Sat: 8 AM - 8 PM</p>
-          <button className="mt-6 bg-blue-500 hover:bg-blue-600 text-white py-2 px-6 rounded-lg flex items-center">
-            {/* <LocationMarkerIcon className="w-5 mr-2" /> Get Directions */}
-          </button>
-        </div>
-      </section>
+      <About/>
 
        {/* Footer Section */}
        <footer className="bg-gradient-to-r from-blue-500 via-indigo-600 to-purple-700 text-white py-8">

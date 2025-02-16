@@ -65,22 +65,23 @@ const servicesData = [
 const Services = () => {
   return (
     <section id="services" className="px-6 py-16 bg-gradient-to-b from-teal-400 to-blue-500 text-white">
-      <h3 className="text-4xl font-bold text-center mb-10">Our Dental Services</h3>
-      
-      <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-        {servicesData.map((service, index) => (
-          <div
-            key={index}
-            className="bg-white text-gray-800 shadow-xl hover:shadow-2xl rounded-lg overflow-hidden transition-all duration-300 ease-in-out"
-          >
-            <div className="p-6">
-              <h4 className="text-xl font-semibold text-teal-500 mb-4">{service.title}</h4>
-              <p className="text-sm text-gray-600">{service.description}</p>
-            </div>
+    <h3 className="text-4xl font-bold text-center mb-12">Our Dental Services</h3>
+  
+    <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
+      {servicesData.map((service, index) => (
+        <div
+          key={index}
+          className="bg-white text-gray-800 shadow-lg hover:shadow-2xl rounded-lg overflow-hidden transition-transform transform hover:scale-105 duration-300 ease-in-out"
+        >
+          <div className="p-6">
+            <h4 className="text-2xl font-semibold text-teal-500 mb-4">{service.title}</h4>
+            <p className="text-sm text-gray-600 leading-relaxed">{service.description}</p>
           </div>
-        ))}
-      </div>
-    </section>
+        </div>
+      ))}
+    </div>
+  </section>
+  
   );
 };
 
