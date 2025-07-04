@@ -2,36 +2,13 @@ import Services from "./Services";
 import HeroSection from "./HeroSection";
 import CommunityServices from "./CommunityServices";
 import About from "./About";
+import Navbar from "./Navbar";
 
 const MaryaditDental = () => {
   return (
     <div className="font-sans bg-gray-50 text-gray-900">
       {/* Navbar */}
-      <nav className="bg-gradient-to-r from-blue-500 via-indigo-600 to-purple-700 text-white px-6 py-4">
-        <div className="container mx-auto flex justify-between items-center">
-          <div className="text-2xl font-bold">Maryadit Dental Clinic</div>
-          <div className="space-x-8 text-lg">
-            <a href="#home" className="hover:text-yellow-400">
-              Home
-            </a>
-            <a href="#about-us" className="hover:text-yellow-400">
-              About Us
-            </a>
-            <a href="#services" className="hover:text-yellow-400">
-              Services
-            </a>
-            <a href="#contact" className="hover:text-yellow-400">
-              Contact Info
-            </a>
-            <a href="#community" className="hover:text-yellow-400">
-              Community Activities
-            </a>
-            <a href="#team" className="hover:text-yellow-400">
-              Meet the Team
-            </a>
-          </div>
-        </div>
-      </nav>
+      <Navbar />
 
       <HeroSection />
 
