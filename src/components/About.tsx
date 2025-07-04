@@ -51,7 +51,6 @@ const About = () => {
             >
               <img
                 src={member.image}
-                srcSet={`${member.image} 1x, ${member.image2x} 2x`} // Optional
                 alt={member.name}
                 className="w-32 h-32 rounded-full mx-auto mb-4 object-cover"
               />
