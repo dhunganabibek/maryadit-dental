@@ -64,7 +64,7 @@ const servicesData = [
 const Services = () => {
   return (
     <section id="services" className="px-6 py-16  text-white">
-      <h3 className="text-4xl font-bold text-center mb-12 text-gray-700">
+      <h3 className="text-3xl font-bold text-center mb-12 text-gray-700">
         Our Dental Services
       </h3>
 
@@ -75,7 +75,7 @@ const Services = () => {
             className="bg-white rounded-xl shadow-md hover:shadow-2xl transition duration-300 overflow-hidden transform hover:-translate-y-1"
           >
             {/* Header */}
-            <div className="bg-blue-100 p-4">
+            <div className="bg-blue-200 p-4">
               <h4 className="text-xl  font-semibold text-gray-700 text-center">
                 {service.title}
               </h4>

@@ -3,6 +3,7 @@ import HeroSection from "./HeroSection";
 import CommunityServices from "./CommunityServices";
 import About from "./About";
 import Navbar from "./Navbar";
+import Footer from "./Footer";
 
 const MaryaditDental = () => {
   return (
@@ -50,40 +51,7 @@ const MaryaditDental = () => {
       <About />
 
       {/* Footer Section */}
-      <footer className="bg-gradient-to-r from-blue-500 via-indigo-600 to-purple-700 text-white py-8">
-        <div className="container mx-auto text-center">
-          <p className="text-lg">Stay Connected</p>
-          <div className="flex justify-center space-x-6 mt-4">
-            <a
-              href="https://facebook.com"
-              className="text-xl hover:text-yellow-400"
-            >
-              Facebook
-            </a>
-            <a
-              href="https://instagram.com"
-              className="text-xl hover:text-yellow-400"
-            >
-              Instagram
-            </a>
-            <a
-              href="https://twitter.com"
-              className="text-xl hover:text-yellow-400"
-            >
-              Twitter
-            </a>
-            <a
-              href="mailto:dmaryadit@gmail.com"
-              className="text-xl hover:text-yellow-400"
-            >
-              Email
-            </a>
-          </div>
-          <p className="mt-6">
-            &copy; 2025 Maryadit Dental Clinic. All rights reserved.
-          </p>
-        </div>
-      </footer>
+      <Footer />
     </div>
   );
 };

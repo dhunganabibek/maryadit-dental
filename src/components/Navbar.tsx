@@ -50,9 +50,6 @@ const Navbar = () => {
           <a href="#home" className="block py-2 hover:text-yellow-400">
             Home
           </a>
-          <a href="#about-us" className="block py-2 hover:text-yellow-400">
-            About Us
-          </a>
           <a href="#services" className="block py-2 hover:text-yellow-400">
             Services
           </a>

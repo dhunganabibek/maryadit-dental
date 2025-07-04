@@ -51,6 +51,7 @@ const About = () => {
             >
               <img
                 src={member.image}
+                srcSet={`${member.image} 1x, ${member.image2x} 2x`} // Optional
                 alt={member.name}
                 className="w-32 h-32 rounded-full mx-auto mb-4 object-cover"
               />
@@ -71,7 +72,7 @@ const About = () => {
         <div className="absolute inset-0 bg-[url('/assets/bg-pattern.svg')] opacity-10 bg-cover bg-center pointer-events-none" />
 
         <div className="relative z-10 max-w-4xl mx-auto text-center">
-          <h3 className="text-4xl font-bold mb-12 text-gray-800">
+          <h3 className="text-3xl font-bold mb-12 text-gray-800">
             📞 Get In Touch With Us
           </h3>
 

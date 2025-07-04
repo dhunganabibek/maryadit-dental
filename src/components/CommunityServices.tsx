@@ -8,7 +8,7 @@ const CommunityServices = () => {
       id="community"
       className="px-6 py-16 bg-gradient-to-b from-green-200 to-blue-300 text-gray-700"
     >
-      <h3 className="text-4xl font-bold text-center mb-12 text-gray-900">
+      <h3 className="text-3xl font-bold text-center mb-12 text-gray-900">
         Giving Back to the Community
       </h3>
       <p className="max-w-4xl mx-auto text-center mb-12 text-gray-700">
